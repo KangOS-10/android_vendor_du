@@ -51,11 +51,11 @@ type Product_variables struct {
 	Target_shim_libs struct {
 		Cppflags []string
 	}
-	Target_camera_needs_client_info struct {
-		Cppflags []string
-	}
 	Target_needs_netd_direct_connect_rule struct {
 		Cppflags []string
+	}
+	Target_camera_needs_client_info struct {
+		Cflags []string
 	}
 	Target_ignores_ftp_pptp_conntrack_failure struct {
 		Cppflags []string
